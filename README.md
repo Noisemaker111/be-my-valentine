@@ -20,13 +20,27 @@ A romantic, interactive Valentine's Day web application with authentication prot
 - **Package Manager**: pnpm
 - **Monorepo**: Turborepo
 
+## 🚀 Quick Deploy
+
+**Want to deploy right now?** Just follow these steps:
+
+1. **Push to GitHub** (if not already done):
+   ```bash
+   git remote add origin https://github.com/YOUR_USERNAME/be-my-valentine.git
+   git push -u origin master
+   ```
+
+2. **See [DEPLOY.md](./DEPLOY.md)** for complete deployment instructions
+
+That's it! Just click buttons on Vercel and Convex dashboards.
+
 ## Prerequisites
 
 - Node.js 18+ 
 - pnpm installed globally: `npm install -g pnpm`
 - A Convex account (free tier available)
 
-## Getting Started
+## Development Setup
 
 ### 1. Clone and Install
 

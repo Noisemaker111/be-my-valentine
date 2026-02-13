@@ -13,7 +13,9 @@
     "dev:native": "turbo -F native dev",
     "dev:web": "turbo -F web dev",
     "dev:server": "turbo -F @be-my-valentines/backend dev",
-    "dev:setup": "turbo -F @be-my-valentines/backend dev:setup"
+    "dev:setup": "turbo -F @be-my-valentines/backend dev:setup",
+    "deploy": "cd packages/backend && npx convex deploy",
+    "deploy:preview": "cd packages/backend && npx convex deploy --preview-create"
   },
   "dependencies": {
     "@be-my-valentines/env": "workspace:*",
