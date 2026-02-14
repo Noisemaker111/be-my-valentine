@@ -1,13 +1,8 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useEffect, useMemo, useState } from "react";
-import { AuthGate } from "@/components/auth-gate";
 
 export const Route = createFileRoute("/")({
-  component: () => (
-    <AuthGate>
-      <ValentinesAdventure />
-    </AuthGate>
-  ),
+  component: () => <ValentinesAdventure />,
 });
 
 type Phase = "login" | "flashlight" | "slideshow" | "matching" | "ending";
@@ -148,7 +143,7 @@ function createDeck(): GameCard[] {
 }
 
 function ValentinesAdventure() {
-  const [phase, setPhase] = useState<Phase>("flashlight");
+  const [phase, setPhase] = useState<Phase>("login");
 
   const [firstDateValue, setFirstDateValue] = useState("");
   const [firstGameValue, setFirstGameValue] = useState("");
