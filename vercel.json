@@ -1,6 +1,6 @@
 {
-  "buildCommand": "cd packages/backend && npx convex deploy --cmd 'cd ../.. && pnpm run build'",
-  "outputDirectory": "apps/web/dist",
+  "buildCommand": "cd ../../packages/backend && npx convex deploy --cmd 'cd ../.. && pnpm run build'",
+  "outputDirectory": "dist",
   "installCommand": "pnpm install",
   "framework": "vite",
   "rewrites": [
