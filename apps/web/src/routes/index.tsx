@@ -148,7 +148,7 @@ function createDeck(): GameCard[] {
 }
 
 function ValentinesAdventure() {
-  const [phase, setPhase] = useState<Phase>("login");
+  const [phase, setPhase] = useState<Phase>("flashlight");
 
   const [firstDateValue, setFirstDateValue] = useState("");
   const [firstGameValue, setFirstGameValue] = useState("");
