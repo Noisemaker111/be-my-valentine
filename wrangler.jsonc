@@ -1,0 +1,11 @@
+{
+  "name": "be-my-valentine-web",
+  "compatibility_date": "2026-08-29",
+  "assets": {
+    "directory": "./apps/web/dist",
+    "not_found_handling": "single-page-application"
+  },
+  "observability": {
+    "enabled": true
+  }
+}
